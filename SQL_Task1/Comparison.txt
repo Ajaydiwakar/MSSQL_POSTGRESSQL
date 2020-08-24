@@ -1,0 +1,21 @@
+Comparison Between MSSQL Server and PostgressSQL
+
+IN terms of DML commands Postgress has a extra command which is 
+
+SET search_path TO DBNAME;
+
+Which si similar to MSSQL where it is  USE DBNAME;
+
+
+In postgress Creating a database is quite different in compare to Postgres
+1 In postgress we need to assign the owner name 
+2 Need to assign the Encoding type
+3 And also connection limit where -1 means unlimited
+
+In postgress Schema name is given before each table name
+
+In postgress there is no support for NVARCHAR data type where as in MSSQL it supports. NVARCHAR basically stores each char as 2 bytes and can be used to store Unicode data.
+
+ 
+
+
